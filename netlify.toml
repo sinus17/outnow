@@ -4,11 +4,6 @@
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/api/tiktok/auth"
-  to = "/.netlify/functions/tiktok-auth"
-  status = 200
-
-[[redirects]]
   from = "/api/tiktok/video/*"
   to = "/.netlify/functions/tiktok-video/:splat"
   status = 200
